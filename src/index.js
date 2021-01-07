@@ -45,9 +45,12 @@ function fetchToys(){
       }
       function totalLikes(toy, newToy){
         let likes = document.createElement('p');
-        likes.innerText = `${toy.likes}`
+        likes.innerText = `${toy.likes} likes`;
+        newToy.appendChild(likes);
       }
-      function likeBtn(toy, newToy){}
+      function likeBtn(toy, newToy){
+        
+      }
     }
 }
   
