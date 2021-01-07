@@ -65,7 +65,12 @@ function fetchToys(){
       
       function increment(toy){
         let objConfig = {
-          method: 'PATCH'
+          method: 'PATCH',
+          headers: {
+            'Content-Type':'application/json',
+            'Accept':'application/json'
+          }
+          body: JSON.stringify({'likes':<>})
         }
       }
       
