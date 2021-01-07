@@ -20,10 +20,10 @@ function fetchToys(){
     .then(json => createToy(json));
     
     function createToy(json){
-      const toyBox = document.getElementById('toy-collection')
+      const toyBox = document.getElementById('toy-collection');
       json.forEach(toy => {
-        let newToy = document.createElement('div')
-        newToy.className = 'card'
+        let newToy = document.createElement('div');
+        newToy.className = 'card';
         
       });
     }
