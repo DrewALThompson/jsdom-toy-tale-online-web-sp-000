@@ -37,17 +37,20 @@ function fetchToys(){
         name.innerText = toy.name;
         card.appendChild(newToy);
       }
+      
       function toyPhoto(toy, newToy){
         let image = document.createElement('img');
         image.src = toy.image;
         image.className = 'toy-avatar';
         newToy.appendChild(image);
       }
+      
       function totalLikes(toy, newToy){
         let likes = document.createElement('p');
         likes.innerText = `${toy.likes} likes`;
         newToy.appendChild(likes);
       }
+      
       function likeBtn(toy, newToy){
         let button = document.createElement('button');
         button.className = 'like-btn';
@@ -59,6 +62,8 @@ function fetchToys(){
         });
         newToy.appendChild(button);
       }
+      
+      
     }
 }
   
