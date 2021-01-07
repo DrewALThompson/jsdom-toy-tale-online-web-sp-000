@@ -50,6 +50,9 @@ function fetchToys(){
       }
       function likeBtn(toy, newToy){
         let button = document.createElement('button')
+        button.addEventListener('click', () => {
+          
+        })
       }
     }
 }
