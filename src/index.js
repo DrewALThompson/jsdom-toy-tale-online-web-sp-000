@@ -76,7 +76,9 @@ function fetchToys(){
         
         let objConfig = {
           method: 'POST',
-          
+          headers: {
+            
+          }
         }
       }
     }
