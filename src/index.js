@@ -82,6 +82,8 @@ function fetchToys(){
           },
           body: JSON.stringify(data)
         };
+        
+        fetch('')
       }
     }
 }
