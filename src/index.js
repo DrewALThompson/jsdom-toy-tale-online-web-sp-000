@@ -25,7 +25,10 @@ function fetchToys(){
       json.forEach(toy => {
         let newToy = document.createElement('div');
         newToy.className = 'card';
-        
+        toyName(toy, newToy);
+        toyPhoto(toy, newToy);
+        totalLikes(toy, newToy);
+        likeBtn(toy, newToy)
       });
       
       function toyName(toy, newToy){}
