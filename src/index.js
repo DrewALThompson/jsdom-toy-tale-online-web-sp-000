@@ -80,7 +80,7 @@ function fetchToys(){
             'Content-Type':'application/json',
             'Accept':'application/json'
           },
-          body.JSONstringify()
+          body.JSONstringify(data);
         }
       }
     }
