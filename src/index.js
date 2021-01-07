@@ -57,7 +57,7 @@ function fetchToys(){
           increment(toy);
           window.location.reload(true);
         });
-        
+        newToy.appendChild(button);
       }
     }
 }
