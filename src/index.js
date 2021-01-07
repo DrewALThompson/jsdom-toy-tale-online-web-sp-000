@@ -64,8 +64,11 @@ function fetchToys(){
       }
       
       const submit = document.querySelector('form.add-toy-form')
+      submit.addEventListener('submit', postData)
       
-      function postData(){}
+      function postData(){
+        
+      }
     }
 }
   
