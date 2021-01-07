@@ -69,7 +69,8 @@ function fetchToys(){
       function postData(){
         let input = document.querySelectorAll('.input-text');
         let data = {
-          'name': input[0];
+          'name': input[0].value,
+          ''
         }
       }
     }
