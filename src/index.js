@@ -34,7 +34,7 @@ function fetchToys(){
       
       function toyName(toy, newToy){
         let name = document.createElement('h2');
-        name.
+        name.innerText = toy.name
       };
       function toyPhoto(toy, newToy){}
       function totalLikes(toy, newToy){}
