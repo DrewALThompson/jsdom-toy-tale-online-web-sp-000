@@ -85,7 +85,7 @@ function fetchToys(){
         
         fetch("http://localhost:3000/toys", objConfig)
         .then(res => res.json())
-        .then()
+        .then(json = > j)
       }
     }
 }
