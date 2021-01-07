@@ -28,7 +28,8 @@ function fetchToys(){
         toyName(toy, newToy);
         toyPhoto(toy, newToy);
         totalLikes(toy, newToy);
-        likeBtn(toy, newToy)
+        likeBtn(toy, newToy);
+        toyBox.appendChild(newToy)
       });
       
       function toyName(toy, newToy){}
