@@ -85,7 +85,11 @@ function fetchToys(){
         
         fetch("http://localhost:3000/toys", objConfig)
         .then(res => res.json())
-        .then(json = > j)
+        .then(json = > console.log(json))
+        .catch(error => {
+          console.log('Something funky is a foot');
+          console.log(error.message);
+        })
       }
     }
 }
