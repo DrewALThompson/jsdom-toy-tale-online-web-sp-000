@@ -63,7 +63,7 @@ function fetchToys(){
         newToy.appendChild(button);
       }
       
-      const submit = document.getElementByClassname()
+      const submit = document.querySelector('form.')
       
       function postData(){}
     }
