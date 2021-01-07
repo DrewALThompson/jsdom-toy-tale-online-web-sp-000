@@ -69,9 +69,9 @@ function fetchToys(){
           headers: {
             'Content-Type':'application/json',
             'Accept':'application/json'
-          }
+          },
           body: JSON.stringify({'likes':parseInt(toy.likes + 1)})
-        }
+        };
       }
       
       const submit = document.querySelector('form.add-toy-form');
@@ -83,7 +83,7 @@ function fetchToys(){
           'name': input[0].value,
           'image': input[1].value,
           'likes': '0'
-        }
+        };
         
         let objConfig = {
           method: 'POST',
@@ -96,11 +96,11 @@ function fetchToys(){
         
         fetch("http://localhost:3000/toys", objConfig)
         .then(res => res.json())
-        .then(json = > console.log(json))
+        .then(json => console.log(json))
         .catch(error => {
           console.log('Something funky is a foot');
           console.log(error.message);
-        })
+        });
       }
     }
 }
