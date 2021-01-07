@@ -20,6 +20,7 @@ function fetchToys(){
     .then(json => createToy(json));
     
     function createToy(json){
+      const toyBox = 
       json.forEach(toy => {
         
       });
