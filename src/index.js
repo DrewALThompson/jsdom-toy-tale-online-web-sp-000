@@ -30,7 +30,8 @@ function fetchToys(){
       
       function toyName(){}
       function toyPhoto(){}
-      function likes(){}
+      function totalLikes(){}
+      function likeBtn(){}
     }
 }
   
