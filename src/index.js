@@ -29,7 +29,8 @@ function fetchToys(){
       });
       
       function toyName(){}
-      function toy
+      function toyPhoto(){}
+      function
     }
 }
   
