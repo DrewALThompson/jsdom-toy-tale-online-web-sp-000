@@ -50,6 +50,7 @@ function fetchToys(){
       }
       function likeBtn(toy, newToy){
         let button = document.createElement('button')
+        button.
         button.addEventListener('click', () => {
           increment(toy);
           window.location.reload(true);
