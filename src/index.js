@@ -83,7 +83,9 @@ function fetchToys(){
           body: JSON.stringify(data)
         };
         
-        fetch('')
+        fetch("http://localhost:3000/toys", objConfig)
+        .then(res => res.json())
+        .then()
       }
     }
 }
