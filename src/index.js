@@ -17,5 +17,13 @@ document.addEventListener("DOMContentLoaded", () => {
 function fetchToys(){
     fetch('http://localhost:3000/toys')
     .then(res => res.json)
-    .then(json => json.forEach());
-  }
+    .then(json => createToy(json));
+    
+    function createToy(json){
+      json.forEach(toy => {
+        
+      });
+    }
+}
+  
+  
