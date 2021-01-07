@@ -29,14 +29,14 @@ function fetchToys(){
         toyPhoto(toy, newToy);
         totalLikes(toy, newToy);
         likeBtn(toy, newToy);
-        toyBox.appendChild(newToy)
+        toyBox.appendChild(newToy);
       });
       
       function toyName(toy, newToy){
         let name = document.createElement('h2');
         name.innerText = toy.name;
-        card.append
-      };
+        card.appendChild(name);
+      }
       function toyPhoto(toy, newToy){}
       function totalLikes(toy, newToy){}
       function likeBtn(toy, newToy){}
