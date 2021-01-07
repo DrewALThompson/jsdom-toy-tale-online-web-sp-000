@@ -67,7 +67,7 @@ function fetchToys(){
       submit.addEventListener('submit', postData)
       
       function postData(){
-        let 
+        let input = 
         let data = 
       }
     }
