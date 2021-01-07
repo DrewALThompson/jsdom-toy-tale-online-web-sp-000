@@ -49,8 +49,9 @@ function fetchToys(){
         newToy.appendChild(likes);
       }
       function likeBtn(toy, newToy){
-        let button = document.createElement('button')
-        button.
+        let button = document.createElement('button');
+        button.className = 'like-btn';
+        
         button.addEventListener('click', () => {
           increment(toy);
           window.location.reload(true);
