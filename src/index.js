@@ -63,7 +63,7 @@ function fetchToys(){
         newToy.appendChild(button);
       }
       
-      function
+      function postData(){}
     }
 }
   
