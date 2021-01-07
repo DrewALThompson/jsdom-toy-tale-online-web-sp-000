@@ -12,11 +12,10 @@ document.addEventListener("DOMContentLoaded", () => {
       toyFormContainer.style.display = "none";
     }
   });
-  
-  function fetchToys(){
+});
+
+function fetchToys(){
     fetch('http://localhost:3000/toys')
     .then(res => res.json)
     .then(json => console.log(json));
   }
-  
-});
