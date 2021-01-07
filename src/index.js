@@ -72,6 +72,7 @@ function fetchToys(){
           },
           body: JSON.stringify({'likes':parseInt(toy.likes + 1)})
         };
+        
       }
       
       const submit = document.querySelector('form.add-toy-form');
