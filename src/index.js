@@ -23,7 +23,7 @@ function fetchToys(){
       const toyBox = document.getElementById('toy-collection')
       json.forEach(toy => {
         let newToy = document.createElement('div')
-        newToy.class
+        newToy.className = 'card'
         
       });
     }
