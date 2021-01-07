@@ -52,7 +52,7 @@ function fetchToys(){
         let button = document.createElement('button')
         button.addEventListener('click', () => {
           increment(toy);
-          
+          window.location.reload(true);
         })
       }
     }
