@@ -38,8 +38,8 @@ function fetchToys(){
         card.appendChild(newToy);
       }
       function toyPhoto(toy, newToy){
-        let image = document.createElement('img')
-        image.src = toy.image
+        let image = document.createElement('img');
+        image.src = toy.image;
       }
       function totalLikes(toy, newToy){}
       function likeBtn(toy, newToy){}
