@@ -71,7 +71,7 @@ function fetchToys(){
         let data = {
           'name': input[0].value,
           'image': input[1].value,
-          'likes'
+          'likes': '0'
         }
       }
     }
