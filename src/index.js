@@ -73,6 +73,8 @@ function fetchToys(){
           'image': input[1].value,
           'likes': '0'
         }
+        
+        let co
       }
     }
 }
