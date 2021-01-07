@@ -78,8 +78,9 @@ function fetchToys(){
           method: 'POST',
           headers: {
             'Content-Type':'application/json',
-            'Accept'::'application/json'
-          }
+            'Accept':'application/json'
+          },
+          
         }
       }
     }
