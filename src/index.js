@@ -72,7 +72,7 @@ function fetchToys(){
           },
           body: JSON.stringify({'likes':parseInt(toy.likes + 1)})
         };
-        
+        fetch(`http://localhost:3000/toys/${toy.id}`, configObj)
       }
       
       const submit = document.querySelector('form.add-toy-form');
