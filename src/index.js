@@ -32,7 +32,10 @@ function fetchToys(){
         toyBox.appendChild(newToy)
       });
       
-      function toyName(toy, newToy){}
+      function toyName(toy, newToy){
+        let name = document.createElement('h2');
+        name.
+      };
       function toyPhoto(toy, newToy){}
       function totalLikes(toy, newToy){}
       function likeBtn(toy, newToy){}
