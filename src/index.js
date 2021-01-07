@@ -19,5 +19,4 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(json => console.log(json));
   }
   
-  fetchToys();
 });
