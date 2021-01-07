@@ -17,10 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
     fetch('http://localhost:3000/toys')
     .then(res => res.json)
     .then(json => console.log(json));
-    .catch(error => {
-      console.log('Something Went Wrong Chief');
-      console.log(error.message);
-    })
   }
   
   fetchToys();
