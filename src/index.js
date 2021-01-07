@@ -51,11 +51,13 @@ function fetchToys(){
       function likeBtn(toy, newToy){
         let button = document.createElement('button');
         button.className = 'like-btn';
-        
+        button.style = "width: 30px;height:30px;cursor:pointer;";
+        button.innerText = "♥";
         button.addEventListener('click', () => {
           increment(toy);
           window.location.reload(true);
-        })
+        });
+        
       }
     }
 }
