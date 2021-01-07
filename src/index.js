@@ -35,9 +35,11 @@ function fetchToys(){
       function toyName(toy, newToy){
         let name = document.createElement('h2');
         name.innerText = toy.name;
-        card.appendChild(name);
+        card.appendChild(newToy);
       }
-      function toyPhoto(toy, newToy){}
+      function toyPhoto(toy, newToy){
+        
+      }
       function totalLikes(toy, newToy){}
       function likeBtn(toy, newToy){}
     }
