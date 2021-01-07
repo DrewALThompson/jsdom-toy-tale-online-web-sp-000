@@ -63,7 +63,7 @@ function fetchToys(){
         newToy.appendChild(button);
       }
       
-      const submit = document.getElementById('')
+      const submit = document.getElementByClass('')
       
       function postData(){}
     }
