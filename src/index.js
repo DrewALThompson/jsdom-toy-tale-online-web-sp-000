@@ -14,6 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   
   function fetchToys(){
-    
+    fetch()
   }
 });
