@@ -64,7 +64,9 @@ function fetchToys(){
       }
       
       function increment(toy){
-        method: 'PATCH'
+        let objConfig = {
+          method: 'PATCH'
+        }
       }
       
       const submit = document.querySelector('form.add-toy-form');
