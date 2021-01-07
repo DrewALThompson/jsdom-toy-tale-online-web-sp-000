@@ -70,7 +70,7 @@ function fetchToys(){
             'Content-Type':'application/json',
             'Accept':'application/json'
           }
-          body: JSON.stringify({'likes':<>})
+          body: JSON.stringify({'likes':parseInt()})
         }
       }
       
