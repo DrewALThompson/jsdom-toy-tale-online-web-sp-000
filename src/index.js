@@ -63,12 +63,14 @@ function fetchToys(){
         newToy.appendChild(button);
       }
       
-      const submit = document.querySelector('form.add-toy-form')
-      submit.addEventListener('submit', postData)
+      const submit = document.querySelector('form.add-toy-form');
+      submit.addEventListener('submit', postData);
       
       function postData(){
-        let input = document.querySelectorAll('.input-text')
-        let data = 
+        let input = document.querySelectorAll('.input-text');
+        let data = {
+          name
+        }
       }
     }
 }
