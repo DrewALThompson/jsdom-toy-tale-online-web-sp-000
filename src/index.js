@@ -49,7 +49,7 @@ function fetchToys(){
         newToy.appendChild(likes);
       }
       function likeBtn(toy, newToy){
-        
+        let button = document.createElement('button')
       }
     }
 }
