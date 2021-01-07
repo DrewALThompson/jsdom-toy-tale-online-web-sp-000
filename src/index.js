@@ -21,11 +21,15 @@ function fetchToys(){
     
     function createToy(json){
       const toyBox = document.getElementById('toy-collection');
+      
       json.forEach(toy => {
         let newToy = document.createElement('div');
         newToy.className = 'card';
         
       });
+      
+      function toyName(){}
+      function toy
     }
 }
   
