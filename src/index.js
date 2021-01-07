@@ -28,10 +28,10 @@ function fetchToys(){
         
       });
       
-      function toyName(){}
-      function toyPhoto(){}
-      function totalLikes(){}
-      function likeBtn(){}
+      function toyName(toy, newToy){}
+      function toyPhoto(toy, newToy){}
+      function totalLikes(toy, newToy){}
+      function likeBtn(toy, newToy){}
     }
 }
   
