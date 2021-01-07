@@ -63,6 +63,10 @@ function fetchToys(){
         newToy.appendChild(button);
       }
       
+      function increment(){
+        
+      }
+      
       const submit = document.querySelector('form.add-toy-form');
       submit.addEventListener('submit', postData);
       
