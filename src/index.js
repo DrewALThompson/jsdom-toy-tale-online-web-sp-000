@@ -44,7 +44,7 @@ function fetchToys(){
         newToy.appendChild(image);
       }
       function totalLikes(toy, newToy){
-        
+        let likes =
       }
       function likeBtn(toy, newToy){}
     }
