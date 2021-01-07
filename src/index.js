@@ -45,7 +45,7 @@ function fetchToys(){
       }
       function totalLikes(toy, newToy){
         let likes = document.createElement('p');
-        likes.innerText
+        likes.innerText = `${}`
       }
       function likeBtn(toy, newToy){}
     }
