@@ -40,8 +40,12 @@ function fetchToys(){
       function toyPhoto(toy, newToy){
         let image = document.createElement('img');
         image.src = toy.image;
+        image.className = 'toy-avatar';
+        newToy.appendChild(image);
       }
-      function totalLikes(toy, newToy){}
+      function totalLikes(toy, newToy){
+        
+      }
       function likeBtn(toy, newToy){}
     }
 }
