@@ -70,7 +70,8 @@ function fetchToys(){
         let input = document.querySelectorAll('.input-text');
         let data = {
           'name': input[0].value,
-          ''
+          'image': input[1].value,
+          'likes'
         }
       }
     }
