@@ -74,7 +74,9 @@ function fetchToys(){
           'likes': '0'
         }
         
-        let co
+        let objConfig = {
+          
+        }
       }
     }
 }
